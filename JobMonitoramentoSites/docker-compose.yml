@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  job-monitoramento-sites:
+    image: job-monitor-sites-3-1
+    build:
+      context: .
+    environment:
+      - BaseMonitoramento=STRING_CONEXAO
